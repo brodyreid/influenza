@@ -8,9 +8,9 @@ Test the predictive power of Miller’s model of infectious disease spread using
 
 ### Method
 - Derive the Miller model: the model is comprised of (1) the SIR model which describes infectious disease-spread and (2) a probabilistic contact network which describes how social interations will spread the disease.
-– Clean the structured data in `R`.
-– Numerically solve the system of ordinary differential equations in `Matlab`.
-– Build the predictive model using non-linear regression in `R`.
+- Clean the structured data in `R`.
+- Numerically solve the system of ordinary differential equations in `Matlab`.
+- Build the predictive model using non-linear regression in `R`.
 
 ### Results
 The model successfully predicted when the peak number of infections would occur and accurately described the behaviour of the tails. However, the assumption that society can be represented by a Poisson-degree-distribution seemed unreasonable. And so the results were quite unrealistic. A more realistic choice of degree distribution would be needed to accurately make predictions.
